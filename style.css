@@ -11,13 +11,15 @@ body{
 header{
     height: 65vh;
     background-color: rgb(37, 142, 8);
-    clip-path: polygon(0 0 , 100% 0 , 100% 50vh , 80% 60vh , 60% 50vh , 40% 60vh , 20% 50vh , 0 60vh);
+    clip-path:
+    polygon(0 0 , 100% 0 , 100% 50vh , 80% 60vh , 60% 50vh , 40% 60vh , 20% 50vh , 0 60vh);
+    border-radius: 10em;
 }
 
 .main_box{
     position: absolute;
     top: 25%;
-    left: 55%;
+    left: 50%;
     text-align: center;
     transform: translate(-50%,-50%);
 }
